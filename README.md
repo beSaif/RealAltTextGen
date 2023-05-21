@@ -4,7 +4,7 @@
 
 This Chrome extension aims to improve web accessibility by providing a convenient way to generate real alt text for images. Alt text, also known as alternative text, is a textual description that is read by screen readers to provide a meaningful understanding of the images to users with visual impairments.
 
-The Real Alt Text Genie extension leverages the power of the OpenAI OFA-Image-Captioning model to generate accurate alt text for images. It utilizes the API provided by [https://ofa-sys-ofa-image-caption.hf.space/](https://ofa-sys-ofa-image-caption.hf.space/) to generate the alt texts.
+The Real Alt Text Genie extension leverages the power of the OFA-Image-Captioning model to generate accurate alt text for images. It utilizes the API provided by [https://ofa-sys-ofa-image-caption.hf.space/](https://ofa-sys-ofa-image-caption.hf.space/) to generate the alt texts.
 
 ## Features
 
