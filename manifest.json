@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Real Alt Text Generator",
+  "version": "1.0",
+  "description": "Generate Alt Text for images using... AI!",
+  "action": {
+    "default_title": "Real Alt Text Generator"
+  },
+  "permissions": ["tabs", "activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },    
+  "host_permissions": ["*://*/*"],
+  "minimum_chrome_version": "102",
+  "omnibox": {
+    "keyword": "api"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
